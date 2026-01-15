@@ -20,8 +20,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='PETROL PRICE FORECASTING',
     version='0.0.1',
-    autor='Unnati Talaviya',
-    author_email='talaviyaunnati92@gmail.com',
+    autor='Arpit Paghadal',
+    author_email='arpitrpaghadal@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
